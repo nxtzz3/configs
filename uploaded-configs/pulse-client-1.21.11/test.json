@@ -1,0 +1,2238 @@
+{
+  "config_version": 1,
+  "client_version": "1.21.11",
+  "timestamp": 1791558321668,
+  "version": "1",
+  "client": "Pulse",
+  "modules": {
+    "Hud": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Elements": [
+          "Staff",
+          "TargetHud",
+          "HotKeys",
+          "Potions",
+          "Notifications",
+          "Info",
+          "Watermark"
+        ],
+        "Show BPS": true,
+        "Show TPS": true
+      }
+    },
+    "Aura": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Aim Mode": "Matrix",
+        "Attack Range": 2.961039,
+        "Search Range": 1,
+        "Options": [
+          "Crit Randomization",
+          "Don't Hit While Eating",
+          "Hit Through Walls"
+        ],
+        "Target Settings": [
+          "Players",
+          "Mobs",
+          "Animals",
+          "Armor Stands"
+        ],
+        "Ignore Teammates": true,
+        "Move Fix": "Target",
+        "Sprint Reset": "Legit",
+        "Only Crits": true,
+        "Smart Crits": true
+      }
+    },
+    "AttributeSwap": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "CrystalAura": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Protection": [
+          "Friends",
+          "Items"
+        ],
+        "Item Range": 6,
+        "Targets": [
+          "Players",
+          "Hostile",
+          "Passive",
+          "Neutral"
+        ],
+        "Mode": "Silent",
+        "Swap Delay": 50,
+        "Action Delay (ms)": 50,
+        "Auto Place": true,
+        "Auto Break": true,
+        "Combat Range": 4.5,
+        "Target Range": 16,
+        "Minimum Damage": 4,
+        "Maximum Self Damage": 8,
+        "Minimum Health Check": true,
+        "Minimum Health": 4,
+        "Maximum Friend Damage": 2,
+        "Minimum Exposure": 0.05,
+        "Target Damage Weight": 2,
+        "Self Damage Penalty": 3,
+        "Distance Penalty": 0.15,
+        "Finishing Bonus": 5,
+        "Wall Check": true,
+        "Debug Evaluation": false
+      }
+    },
+    "AnchorAura": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Targets": [
+          "Hostile",
+          "Passive",
+          "Neutral",
+          "Players"
+        ],
+        "Mode": "Legit",
+        "Range": 4.5,
+        "Target Range": 10,
+        "Search Range": 4,
+        "Action Delay (ms)": 50,
+        "Maximum Self Damage": 20,
+        "Minimum Health": 4,
+        "Minimum Target Damage": 4,
+        "Minimum Exposure": 0.05,
+        "Protect Friends": true,
+        "Maximum Friend Damage": 2,
+        "Target Damage Weight": 2,
+        "Self Damage Penalty": 3,
+        "Distance Penalty": 0.15,
+        "Finishing Bonus": 5,
+        "Protect Minimum Health": true,
+        "Prevent Lethal Damage": true,
+        "Protect": true,
+        "Debug Evaluation": false
+      }
+    },
+    "AimAssist": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Range": 8,
+        "Speed": 20
+      }
+    },
+    "BowAimbot": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Range": 64
+      }
+    },
+    "Criticals": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Jump"
+      }
+    },
+    "CombatAutoWeapon": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "Reach": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Distance": 4
+      }
+    },
+    "Derp": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Speed": 30
+      }
+    },
+    "HitEffect": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Color": {
+          "hue": 0.82857144,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "Esp": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Entity Type": [
+          "Player",
+          "Item"
+        ],
+        "Player Settings": [
+          "Box",
+          "Armor",
+          "NameTags",
+          "Hand Items"
+        ],
+        "Type": "Corner",
+        "Box Color": {
+          "hue": 0.111111104,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Friend Color": {
+          "hue": 0.33333334,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Outline": false,
+        "Opacity": 1
+      }
+    },
+    "BlockESP": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Color": {
+          "hue": 0,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Radius": 32,
+        "Notifications": true,
+        "Common Blocks": [
+          "minecraft:diamond_ore"
+        ]
+      }
+    },
+    "Xray": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Ores": [
+          "Diamond",
+          "Emerald",
+          "Gold",
+          "Iron",
+          "Copper",
+          "Redstone",
+          "Lapis",
+          "Ancient Debris"
+        ],
+        "Radius": 24,
+        "Color": {
+          "hue": 0.1248062,
+          "saturation": 0.84313726,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "Nuker": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Legit",
+        "Range": 5,
+        "Blocks/Tick": 1,
+        "Delay": 0,
+        "Auto Tool": true,
+        "Flatten": true,
+        "Through Walls": true
+      }
+    },
+    "StorageESP": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Radius": 128,
+        "Tracers": true,
+        "Chest Color": {
+          "hue": 0.10784314,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Trapped Chest Color": {
+          "hue": 0,
+          "saturation": 0.7490196,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Barrel Color": {
+          "hue": 0.083333336,
+          "saturation": 0.6363636,
+          "brightness": 0.6901961,
+          "alpha": 1
+        },
+        "Shulker Color": {
+          "hue": 0.75,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Ender Chest Color": {
+          "hue": 0.41666666,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Hopper Color": {
+          "hue": 0,
+          "saturation": 0,
+          "brightness": 0.53333336,
+          "alpha": 1
+        },
+        "Dispenser Color": {
+          "hue": 0.5833333,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Dropper Color": {
+          "hue": 0.16666667,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "Breadcrumbs": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Length": 512,
+        "Spacing": 0.1,
+        "Color": {
+          "hue": 0,
+          "saturation": 1,
+          "brightness": 0.32857144,
+          "alpha": 1
+        }
+      }
+    },
+    "Trajectories": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Steps": 120,
+        "Color": {
+          "hue": 0.98571426,
+          "saturation": 0.91129035,
+          "brightness": 0.41428572,
+          "alpha": 1
+        }
+      }
+    },
+    "Triangulation": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Radius": 128,
+        "Color": {
+          "hue": 0,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "StrongholdFinder": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Portal Scan Radius": 128,
+        "Reset Data": false,
+        "Throw 1 Color": {
+          "hue": 0.5,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Throw 2 Color": {
+          "hue": 0.083333336,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Destination Color": {
+          "hue": 0.8333333,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Portal Frame Color": {
+          "hue": 0.75757575,
+          "saturation": 0.73333335,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "TrueSight": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Hidden Blocks": true,
+        "Block Types": [
+          "Barrier",
+          "Light",
+          "Structure Void"
+        ],
+        "Block Color": {
+          "hue": 0,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Block Radius": 64
+      }
+    },
+    "AutoTool": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Visual": true
+      }
+    },
+    "FastXP": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "Region Exploit": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Sender",
+        "Region Radius": 24,
+        "Send Key": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "WorldParticles": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Star",
+        "Amount": 100,
+        "Lifetime": 10,
+        "Size": 1.5,
+        "Glow": 3,
+        "Physics": false,
+        "Random Color": false,
+        "White on Spawn": true,
+        "White Center": false,
+        "Color": {
+          "hue": 0.06410256,
+          "saturation": 0.47445256,
+          "brightness": 0.5372549,
+          "alpha": 1
+        }
+      }
+    },
+    "Arrows": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Distance": 20,
+        "Color": {
+          "hue": 0.06410256,
+          "saturation": 0.47445256,
+          "brightness": 0.5372549,
+          "alpha": 1
+        }
+      }
+    },
+    "Particles": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Random",
+        "Glow": "Bloom Sample",
+        "Triggers": [
+          "Attack",
+          "Totem",
+          "Walking",
+          "Projectile"
+        ],
+        "Amount": 40,
+        "Walk Amount": 30,
+        "Spread": 1,
+        "Speed": 2,
+        "Lifetime": 2.5,
+        "Size": 1,
+        "Random Color": true,
+        "Color": {
+          "hue": 0.06410256,
+          "saturation": 0.47445256,
+          "brightness": 0.5372549,
+          "alpha": 1
+        }
+      }
+    },
+    "AuctionHelper": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Thorns Filter": true,
+        "Price per Item": false
+      }
+    },
+    "GlassHands": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Blur Strength": 2.5,
+        "Quality": 3,
+        "Saturation": 0,
+        "Tint": false,
+        "Tint Strength": 0.2,
+        "Tint Color": {
+          "hue": 0.5,
+          "saturation": 1,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Edge Glow": true,
+        "Glow Strength": 0.2
+      }
+    },
+    "Chunk Animator": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Speed": 10
+      }
+    },
+    "AutoMace": {
+      "enabled": true,
+      "keybind": 258,
+      "key": 258,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Server": "Default",
+        "Mode": "Legit",
+        "Targets": [
+          "Players",
+          "Mobs"
+        ],
+        "Priority": "Distance",
+        "Max Distance": 128,
+        "Open Sky Only": true,
+        "Avoid Lava/Void": true,
+        "Skip Totem Holders": false,
+        "Ignore Teammates": true,
+        "Min Health": 0,
+        "Safe Landing": false,
+        "Shield Breaker": true,
+        "Height": 24,
+        "Attack Range": 4,
+        "Rocket Interval": 1152.5974,
+        "Rocket Boost Threshold": 0.22727275,
+        "Auto Chestplate": true,
+        "Prediction": true
+      }
+    },
+    "TriggerBot": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Attack Range": 3,
+        "Target Type": [
+          "Players",
+          "Mobs",
+          "Animals"
+        ],
+        "Ignore Teammates": true,
+        "Options": [
+          "Crit Randomization"
+        ],
+        "Sprint Reset": "Intensive",
+        "Smart Crits": true
+      }
+    },
+    "BowSpammer": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Delay": 2.2
+      }
+    },
+    "Ambience": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Time": 1000
+      }
+    },
+    "AutoTotem": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Swap Mode": "Legit",
+        "Health Threshold": 6,
+        "Triggers": [
+          "Crystal",
+          "Fall",
+          "Anti Oneshot"
+        ],
+        "Options": [
+          "Skip if Head",
+          "Return Item",
+          "Keep Enchanted"
+        ],
+        "Crystal Distance": 6,
+        "Fall Height": 15,
+        "TNT Distance": 6,
+        "Minecart Distance": 6,
+        "Elytra Health": 10
+      }
+    },
+    "TapeMouse": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Type": "Left Click",
+        "Delay": 1
+      }
+    },
+    "ElytraHelper": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Legit",
+        "Swap Key": {
+          "key": -1,
+          "type": 1
+        },
+        "Firework Key": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "ChinaHat": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Color 1": {
+          "hue": 0.9714286,
+          "saturation": 0.9435484,
+          "brightness": 0.5857143,
+          "alpha": 1
+        },
+        "Color 2": {
+          "hue": 0.6571429,
+          "saturation": 0.8145161,
+          "brightness": 0.8857143,
+          "alpha": 1
+        }
+      }
+    },
+    "AutoPotion": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Throw": [
+          "Strength",
+          "Speed"
+        ],
+        "Auto Disable": false
+      }
+    },
+    "Jesus": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Matrix",
+        "FT Speed": 0.08
+      }
+    },
+    "ClientSounds": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Sound Type": "New",
+        "Volume": 0.22337663
+      }
+    },
+    "AutoGApple": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Health": 16,
+        "Smart": true,
+        "Gold Absorption": true,
+        "Return Slot": true
+      }
+    },
+    "Server Assist": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Server Type": "FunTime",
+        "Swap Mode": "Legit",
+        "Fill Color": {
+          "hue": 0.023391813,
+          "saturation": 0.8769231,
+          "brightness": 0.50980395,
+          "alpha": 0.15686275
+        },
+        "Line Color": {
+          "hue": 0.023391813,
+          "saturation": 0.8769231,
+          "brightness": 0.50980395,
+          "alpha": 1
+        },
+        "Anti Flight": {
+          "key": -1,
+          "type": 1
+        },
+        "Exp Scroll": {
+          "key": -1,
+          "type": 1
+        },
+        "Explosive Trap": {
+          "key": -1,
+          "type": 1
+        },
+        "Normal Trap": {
+          "key": -1,
+          "type": 1
+        },
+        "Stun": {
+          "key": -1,
+          "type": 1
+        },
+        "Explosive Item": {
+          "key": -1,
+          "type": 1
+        },
+        "Freeze Snowball": {
+          "key": -1,
+          "type": 1
+        },
+        "God Aura": {
+          "key": -1,
+          "type": 1
+        },
+        "Trap": {
+          "key": -1,
+          "type": 1
+        },
+        "Plast": {
+          "key": -1,
+          "type": 1
+        },
+        "Flash Powder": {
+          "key": -1,
+          "type": 1
+        },
+        "Fire Swirl": {
+          "key": -1,
+          "type": 1
+        },
+        "Disorientation": {
+          "key": -1,
+          "type": 1
+        },
+        "Jack's Lantern": {
+          "key": -1,
+          "type": 1
+        },
+        "Exp Bubble": {
+          "key": -1,
+          "type": 1
+        },
+        "Backpack Tier 1": {
+          "key": -1,
+          "type": 1
+        },
+        "Backpack Tier 2": {
+          "key": -1,
+          "type": 1
+        },
+        "Backpack Tier 3": {
+          "key": -1,
+          "type": 1
+        },
+        "Backpack Tier 4": {
+          "key": -1,
+          "type": 1
+        },
+        "Clapper": {
+          "key": -1,
+          "type": 1
+        },
+        "Holy Water": {
+          "key": -1,
+          "type": 1
+        },
+        "Wrath Potion": {
+          "key": -1,
+          "type": 1
+        },
+        "Paladin Potion": {
+          "key": -1,
+          "type": 1
+        },
+        "Assassin Potion": {
+          "key": -1,
+          "type": 1
+        },
+        "Radiation Potion": {
+          "key": -1,
+          "type": 1
+        },
+        "Sleeping Potion": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "WindJump": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Instant",
+        "Key": {
+          "key": 342,
+          "type": 1
+        }
+      }
+    },
+    "TargetEsp": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Rhomb",
+        "Crystal Rotation Speed": 0.5,
+        "Color 1": {
+          "hue": 0.037037034,
+          "saturation": 0.7764706,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Color 2": {
+          "hue": 0.9186992,
+          "saturation": 0.8039216,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Color 3": {
+          "hue": 0.7479675,
+          "saturation": 0.8039216,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "BlockOverlay": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "HitSound": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Sound Type": "Moan",
+        "Volume": 0.58116883
+      }
+    },
+    "ClickPearl": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Legit",
+        "Key": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "JumpCircle": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Max Size": 2,
+        "Speed": 2000,
+        "Glow": true,
+        "Color 1": {
+          "hue": 0.06410256,
+          "saturation": 0.47445256,
+          "brightness": 0.5372549,
+          "alpha": 1
+        },
+        "Color 2": {
+          "hue": 0,
+          "saturation": 0,
+          "brightness": 1,
+          "alpha": 1
+        }
+      }
+    },
+    "ItemScroller": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Item Scroll Delay": 0
+      }
+    },
+    "TargetStrafe": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Matrix",
+        "Walk Point": "Cube",
+        "Bypass Point": "Circle",
+        "Bypass Radius": 0.87,
+        "Radius": 2.5,
+        "Speed": 0.3,
+        "Settings": [
+          "Auto Jump"
+        ],
+        "Direction": "Clockwise"
+      }
+    },
+    "AutoLeave": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Leave Type": "Main Menu",
+        "Triggers": [
+          "Staff"
+        ],
+        "Maximum Distance": 10
+      }
+    },
+    "Strafe": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Matrix",
+        "Speed": 0.42
+      }
+    },
+    "AutoDuel": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Totems",
+        "Send Speed": 586.36365,
+        "Play for Money": false,
+        "Coins": "10000"
+      }
+    },
+    "NoWeb": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Grim"
+      }
+    },
+    "AutoTpAccept": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Friends Only": true
+      }
+    },
+    "Spider": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Slime Block"
+      }
+    },
+    "ClickFriend": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Add Friend": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "FreeLook": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Free Look": {
+          "key": 342,
+          "type": 1
+        }
+      }
+    },
+    "Fly": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Dragon Fly",
+        "Speed XZ": 5.032468,
+        "Speed Y": 1.5
+      }
+    },
+    "Step": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Height": 1
+      }
+    },
+    "HighJump": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Velocity": 0.67499995
+      }
+    },
+    "ElytraMotion": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "FullBright": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "CameraSettings": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Camera Clip": true,
+        "Camera Distance": 3,
+        "Zoom": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "ItemPhysic": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "NoDelay": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Type": [
+          "Jump",
+          "Mining Delay"
+        ]
+      }
+    },
+    "AutoArmor": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "AutoEat": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Hunger": 12,
+        "Return Slot": true
+      }
+    },
+    "AutoMine": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Block Search": "",
+        "Blocks": [
+          "diamond_ore"
+        ],
+        "Search Radius": 32,
+        "Only Revealed": false,
+        "Pathfinding": true,
+        "Show Route": true,
+        "Route Color": {
+          "hue": 0.5,
+          "saturation": 0.6666667,
+          "brightness": 1,
+          "alpha": 1
+        },
+        "Require Attack": false
+      }
+    },
+    "AntiFire": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "AntiCactus": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "Regen": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Health": 14
+      }
+    },
+    "AutoFish": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "ServerRPSpoof": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "SeeInvisible": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Opacity": 0.5
+      }
+    },
+    "AutoPilot": {
+      "enabled": true,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "NoFall": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "MLG",
+        "Fall distance": 2.5
+      }
+    },
+    "NoRender": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Elements": [
+          "Fire",
+          "Bad Effects",
+          "Block Overlay",
+          "Darkness",
+          "Damage",
+          "Nausea"
+        ]
+      }
+    },
+    "ShiftTap": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "HitBox": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "XZ Expand": 0.2,
+        "Y Expand": 0
+      }
+    },
+    "WaterSpeed": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "FunTime",
+        "Ice Boost": true,
+        "Ice Speed": 1.5
+      }
+    },
+    "NameProtect": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Friends": true
+      }
+    },
+    "NoFriendDamage": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "ProjectileHelper": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Search Distance": 16,
+        "Target Type": [
+          "Players",
+          "Mobs",
+          "Animals"
+        ]
+      }
+    },
+    "InventoryMove": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Normal",
+        "Grim Bypass": true
+      }
+    },
+    "ChestStealer": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Type": "FunTime",
+        "Delay": 100,
+        "Items": []
+      }
+    },
+    "NoInteract": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {}
+    },
+    "AntiBot": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "ReallyWorld"
+      }
+    },
+    "ViewModel": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Main Hand X": 0,
+        "Main Hand Y": 0,
+        "Main Hand Z": 0,
+        "Off Hand X": 0,
+        "Off Hand Y": 0,
+        "Off Hand Z": 0
+      }
+    },
+    "SuperFireWork": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "BravoHvH",
+        "Speed": 1.963
+      }
+    },
+    "LongJump": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Slime Boost"
+      }
+    },
+    "ElytraTarget": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Aim Distance": 32,
+        "Lead Value": 3,
+        "Toggle Lead Key": {
+          "key": -1,
+          "type": 1
+        }
+      }
+    },
+    "FreeCam": {
+      "enabled": false,
+      "keybind": 96,
+      "key": 96,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Speed": 2,
+        "Freeze": false,
+        "Reload Chunks": true,
+        "Toggle On Log": true
+      }
+    },
+    "Speed": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Vanilla",
+        "Speed": 1.961039
+      }
+    },
+    "NoEntityTrace": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Disable with sword": true
+      }
+    },
+    "AutoRespawn": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Default"
+      }
+    },
+    "AutoSwap": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Instant",
+        "Swap Key": {
+          "key": -1,
+          "type": 1
+        },
+        "Primary Item": "Totem of Undying",
+        "Secondary Item": "Totem of Undying",
+        "Stop Movement": true,
+        "Stop Sprint": true,
+        "Close Inventory": true,
+        "Pre Stop (Min)": 0,
+        "Pre Stop (Max)": 50,
+        "Wait Stop (Min)": 50,
+        "Wait Stop (Max)": 150,
+        "Pre Swap (Min)": 20,
+        "Pre Swap (Max)": 100,
+        "Post Swap (Min)": 20,
+        "Post Swap (Max)": 80,
+        "Resume (Min)": 50,
+        "Resume (Max)": 150,
+        "Velocity Threshold": 0.001
+      }
+    },
+    "AntiPush": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Ignore": []
+      }
+    },
+    "NoSlow": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Item Mode": "Grim Old"
+      }
+    },
+    "Velocity": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Normal"
+      }
+    },
+    "SwingAnimation": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Swing Type": "Chop",
+        "Swing Strength": 1,
+        "Swing Duration": 1,
+        "Only While Swinging": false,
+        "Only While KillAura": false
+      }
+    },
+    "AutoSprint": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Don't Reset Sprint": false
+      }
+    },
+    "Auto Buy": {
+      "enabled": false,
+      "keybind": -1,
+      "key": -1,
+      "type": 1,
+      "favorite": false,
+      "settings": {
+        "Mode": "Checker",
+        "Servers": "Off",
+        "Update Delay": 500,
+        "Server Switch Time": 30,
+        "Notifications": true
+      }
+    }
+  },
+  "autobuy": {
+    "globalEnabled": false,
+    "items": {
+      "[★] Sphere of the Beast": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of the Crusher": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Diamond Ore": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Trident": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Mega Bulldozer Pickaxe": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Wither Skeleton Skull": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Trident": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Spawner": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "TNT": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Signal Fire [Legendary]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of the Vortex": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Zombie Villager Spawn Egg": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Dragon Skin": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Iron Ingot": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Experience Bottle [50 lvl]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of Icarus": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Plast": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Bow": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Totem of Undying": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Paladin Potion": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sleeping Potion": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Leggings": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Mace": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Firework": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Beacon": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Elytra": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Signal Fire [Ordinary]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Light Dust": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Experience Bottle [15 lvl]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Sword": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Netherite Ingot": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[🍹] Mandarin Juice": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] God's Touch": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Silver": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Wrath Potion": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Cake": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Breeze Spawn Egg": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Trap": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of Darkness": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Cursed Soul": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Gold Ingot": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Holy Water": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Chestplate": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Ominous Trial Key": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Lockpick to Spheres": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Iron Block": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] God's Aura": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Signal Fire [Random]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of the Tyrant": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Crossbow": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of the Grinch": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Powerful Hit": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of Discord": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Elytra": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Nether Star": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of Fury": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Blaze Rod": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Creeper Head": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] TNT - TIER WHITE": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Boots": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Chunk Loader [1x1]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Experience Bottle": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] TNT - TIER BLACK": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of Eris": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Assassin Potion": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[❄] Sphere of Frost": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Gunpowder": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Breeze Rod": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Gold Block": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Dragon Head": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Villager Spawn Egg": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Trial Key": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of Ares": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Obsidian": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Pickaxe": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of the Demon": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Netherite Upgrade": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[⚒] Unbreakable Elytra": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Piglin Head": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of Chaos": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Shulker Box": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of the Titan": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Signal Fire [Pulse]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Mace": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Damage Block": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Golden Apple": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Radiation Potion": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Freeze Snowball": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Talisman of the Punisher": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Ender Pearl": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Zombie Head": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Experience Bottle [30 lvl]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of the Satyr": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Firecracker": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Enchanted Golden Apple": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Netherite Block": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Emerald Ore": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Diamond Block": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Skeleton Skull": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Bundle": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Diamond": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Apple": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Name Tag": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Fire Whirlwind": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Sphere of the Hydra": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Chunk Loader [3x3]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Wind Charge": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Crusher Helmet": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Chunk Loader [5x5]": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "Mysterious Beacon": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      },
+      "[★] Disorientation": {
+        "enabled": false,
+        "buyBelow": 1000,
+        "minQuantity": 1
+      }
+    }
+  }
+}
